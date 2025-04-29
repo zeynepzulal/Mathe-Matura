@@ -1,0 +1,14 @@
+.topic-button{
+    padding: 10px;
+    margin: 10px;
+    background-color: #644A07;
+    border: solid #644A07 6px;
+    border-radius: 10px;
+    display:flex;
+    
+}
+
+.topic-card{
+    color: white;
+    text-decoration: none;
+}
