@@ -26,7 +26,10 @@ export default function Topic() {
       <hr />
       {topic.exercises.map((ex, i) => (
         <div key={i}>
-          <p><strong>Frage:</strong> {ex.question}</p>
+          <p><strong>Frage:</strong></p>
+
+          <iframe src={ex.question} width="100%" height="500px" />
+
 
           <button onClick={() => toggleSolution(i)}>
             {showSolution[i] ? "Lösung verbergen" : "Lösung anzeigen"}
